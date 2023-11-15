@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>푸라닭 치킨</title>
+      <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <div class="header-sub">
+            <div class="inConts">
+                <a href="">로그인</a>
+                <a href="">회원가입</a>
+            </div>
+        </div>
+        <div class="header">
+            <div class="inConts">
+                <h1>
+                    <img src="images/h1_logo.png" alt="logo">
+                </h1>
+                <nav>
+                    <ul class="gnb">
+                        <li><a href=""><span>브랜드소개</span></a>
+                            <ul class="gnbSub">
+                                <li><a href=""><span>푸라닭 소개</span></a></li>
+                                <li><a href=""><span>푸라닭 컨셉</span></a></li>
+                                <li><a href=""><span>수상내역</span></a></li>
+                                <li><a href=""><span>푸라닭 BI</span></a></li>
+                                <li><a href=""><span>푸라닭 폰트</span></a></li>
+                                <li><a href=""><span>해외사업</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href=""><span>메뉴안내</span></a>
+                            <ul class="gnbSub">
+                                <li><a href=""><span>전체메뉴</span></a></li>
+                                <li><a href=""><span>치킨 메뉴</span></a></li>
+                                <li><a href=""><span>사이드 메뉴</span></a></li>
+                                <li><a href=""><span>푸레스트</span></a></li>
+                                <li><a href=""><span>페이커리</span></a></li>
+                                <li><a href=""><span>P-피자</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href=""><span>창업안내</span></a>
+                            <ul class="gnbSub">
+                                <li><a href=""><span>왜 푸라닭인가</span></a></li>
+                                <li><a href=""><span>창업절차</span></a></li>
+                                <li><a href=""><span>창업비용</span></a></li>
+                                <li><a href=""><span>창업문의</span></a></li>
+                                <li><a href=""><span>창업 FAQ</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="one"><a href=""><span>매장찾기</span></a></li>
+                    </ul>
+                </nav>
+                <div class="sua">
+                    <a href="">회사소개</a>
+                    <a href="">NEWS</a>
+                    <a href="">이벤트</a>
+                    <a href="">GLOBAL</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mVisual">
+            <!-- Swiper -->
+            <div class="swiper banner">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/230918_main_pc_3.jpg" alt="banner">
+                </div>
+                <div class="swiper-slide">
+                    <iframe src="https://www.youtube.com/embed/wkYIv_c7qr4?si=h7NWz-7SBcKk8eBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/순살치킨홈페이지배너.jpg" alt="banner">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/230901_main_pc2.jpg" alt="banner">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/마불로악마 메인이미지.png" alt="banner">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/전용앱.jpg" alt="banner">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/230216_main_pc.jpg" alt="banner">
+                </div>
+                <div class="swiper-slide">
+                    <iframe src="https://www.youtube.com/embed/7E_lesFFP3E?si=C7IpgYpFrRYssNcn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="swiper-slide">
+                    <iframe src="https://www.youtube.com/embed/bhWTsXI-kOg?si=vUYPsWyGe-zOI-So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="swiper-slide">
+                    <iframe src="https://www.youtube.com/embed/vFUpzUs8WE4?si=mgnlrlCH-ZnEwx8S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+            <div class="swiper-next"></div>
+            <div class="swiper-prev"></div>
+            <div class="swiper-pagination"></div>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".banner", {
+                cssMode: true,
+                navigation: {
+                    nextEl: ".swiper-next",
+                    prevEl: ".swiper-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+                mousewheel: true,
+                keyboard: true,
+                loop: true,
+                });
+            </script>
+        </div>
+        <div class="mConts mMenu">
+            <div class="inConts">
+                <div class="mTitle">
+                    <dt>
+                        <img src="images/tit_puradak.png" alt="tit_puradak">
+                    </dt>
+                    <dd>차별화된 맛과 비주얼로 요리와 같은 치킨을 만듭니다.</dd>
+                </div>
+                <div class="wrap-slider">
+                    <div class="more-btn">
+                        <p class="more">
+                            <a href=""><img src="images/btn_more.png" alt="more"></a>
+                        </p>
+                    </div>
+                    <!-- Swiper -->
+                        <div class="swiper sliderBox">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/김미바삭.jpg" alt="menu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/씬후라이드.jpeg" alt="menu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/고추마요치킨.jpg" alt="menu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/마불로악마.jpg" alt="menu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/대표메뉴 콘소메이징.jpg" alt="menu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/대표메뉴-03.jpg" alt="menu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/대표메뉴-01.jpg" alt="menu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/대표메뉴 바질페스타.jpg" alt="menu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/대표메뉴 블랙투움바.jpg" alt="menu">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/대표메뉴투움바.jpg" alt="menu">
+                            </div>
+                            </div>
+                        </div>
+                        <div class="menu-next"></div>
+                        <div class="menu-prev"></div>
+                              
+                            <script>
+                                var swiper = new Swiper(".sliderBox", {
+                                  cssMode: true,
+                                  navigation: {
+                                    nextEl: ".menu-next",
+                                    prevEl: ".menu-prev",
+                                  },
+                                  mousewheel: true,
+                                  keyboard: true,
+                                  slidesPerView: 4,
+                                });
+                              </script>
+                </div>
+            </div>
+        </div>
+        <div class="mConts mShop">
+            <div class="inConts">
+                <div class="mTitle">
+                    <dt>매장찾기</dt>
+                    <dd>전국 푸라닭치킨 매장을 빠르고 편하게 찾아보세요</dd>
+                </div>
+                <form name="searchFrm" id="searchFrm" action="">
+                    <div class="shopSch">
+                        <div class="inBox">
+                            <dl>
+                                <dt>지역</dt>
+                                <dd class="two">
+                                    <select name="areaidx" id="areaidx" class="select area1">
+                                        <option value="" slot="">시,도 선택</option>
+                                        <option value="10" slot="">서울</option>
+                                        <option value="16" slot="">부산</option>
+                                        <option value="13" slot="">대구</option>
+                                        <option value="1" slot="">인천</option>
+                                        <option value="14" slot="">광주</option>
+                                        <option value="12" slot="">대전</option>
+                                        <option value="15" slot="">울산</option>
+                                        <option value="2" slot="">강원</option>
+                                        <option value="9" slot="">경기</option>
+                                        <option value="7" slot="">경남</option>
+                                        <option value="4" slot="">경북</option>
+                                        <option value="6" slot="">전남</option>
+                                        <option value="5" slot="">전북</option>
+                                        <option value="8" slot="">제주</option>
+                                        <option value="3" slot="">충남</option>
+                                        <option value="11" slot="">충북</option>
+                                        <option value="17" slot="">세종</option>
+                                    </select>
+                                    <select name="areaidx" id="areadetailidx" class="select area2" setval>
+                                        <option value="" slot="">구,군 선택</option>
+                                        <option value="42">남구</option>
+                                        <option value="43">달서구</option>
+                                        <option value="44">달성군</option>
+                                        <option value="45">동구</option>
+                                        <option value="46">북구</option>
+                                        <option value="47">서구</option>
+                                        <option value="48">수성구</option>
+                                        <option value="49">중구</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>매장명</dt>
+                                <dd><input type="text" id="serstr" name="serstr" value="" placeholder="매장명을 입력해주세요."></dd>
+                            </dl>
+                            <input type="submit" value="매장찾기">
+                        </div>
+                    </div>
+                </form>
+                <div class="mbanner">
+                    <a href=""><img src="images/img_mBanner01.jpg" alt="푸라닭이벤트"></a>
+                    <a href=""><img src="images/img_mBanner02.jpg" alt="푸라닭회원문의"></a>
+                </div>
+            </div>
+        </div>
+        <div class="mConts mBtm">
+            <a href=""><img src="images/홈페이지하단이미지.jpg" alt="btm-img"></a>
+        </div>
+        <div id="quick-btm" class="new" style="bottom: 0px;">
+            <div class="inConts">
+                <div>
+                    <strong class="tit">
+                        대표번호
+                        <span>1599-9206</span>
+                    </strong>
+                    <a href="" class="quick-btn" target="_blank">주문하기</a>
+                </div>
+                <div>
+                    <strong class="tit">
+                        창업문의
+                        <span>1668-2921</span>
+                    </strong>
+                    <a href="" class="quick-btn">문의하기</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="link">
+            <div class="inConts">
+                <a href="" class="txt">회사소개</a>
+                <a href="" class="txt">가맹점 게시판</a>
+                <a href="" class="txt">고객의 소리</a>
+                <a href="" class="txt">개인정보처리방침</a>
+                <a href="" class="txt">찾아오시는 길</a>
+                <div class="social">
+                    <a href="" target="_blank"><img src="images/btn_f_facebook.png" alt="facebook"></a>
+                    <a href="" target="_blank"><img src="images/btn_f_blog.png" alt="blog"></a>
+                    <a href="" target="_blank"><img src="images/btn_f_instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="inConts">
+            <p class="tac mt50 mb80">
+                <a href="">
+                    <img src="images/수상-pc.png" alt="수상">
+                </a>
+            </p>
+            <div class="text">
+                <p><span>· 법인명 (상호) : 주식회사 아이더스코리아(푸라닭치킨)</span><span>· 대표자 : 장성식</span><span>· 사업자등록번호 : 112-88-00179</span><span>· 주소 : 서울특별시 강서구 양천로 376, 7층,8층,9층 (가양동, 델타빌딩)</span></p>
+                <p class="inner-text"><span>· 대표번호 : <strong>1599-9206</strong></span><span>· 가맹문의 : <strong>1668-2921</strong></span><span>· 고객센터 : 02-323-9001</span><span>· 팩스 : 02-323-9003 </span><span>· 이메일 : iduskorea@iduskorea.com</span></p>
+                <address>COPYRIGHT © 2019 <span>IDUS KOREA</span>. ALL RIGHTS RESERVED.</address>
+            </div>
+        </div>
+    </footer>
+    <div class="floating-area">
+		<a href=""><img src="images/quick_order.png" alt="온라인 주문하기"></a>
+		<a href=""><img src="images/quick_startups.png" alt="창업 문의하기"></a>
+	</div>
+</body>
+</html>
